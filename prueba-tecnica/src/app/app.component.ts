@@ -50,10 +50,6 @@ export class AppComponent {
         
       }
       
-      // userTemp.direction = this.user.direction;
-      // userTemp.email = this.user.email;
-      // userTemp.lastname = this.user.lastname;
-      // userTemp.name = this.user.name;
       this.crudService.update(tempUser);
     }
   }
